@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Hello from Home page</h1>
+
+    <form action="#" th:action="@{/user-details}" method="post">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName">
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <a href="/profile">Go to Profile Page</a>
+</body>
+</html>
